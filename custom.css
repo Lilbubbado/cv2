@@ -1,0 +1,43 @@
+.bg-dark-color {
+  background-color: #222226; }
+
+.bg-color {
+  background-color: #0597F2; }
+
+.text-color {
+  color: #0597F2; }
+
+.gradient-background {
+  background: linear-gradient(300deg, #fd9843, #0d6efd, #052c65);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite; }
+
+.cushion {
+  height: 150px; }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(photos/blue-images/blue-hex-background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#home > div > div > div > button.btn.btn-light.bg-color.btn-lg.text-dark.px-4.me-md-2 {
+  border: 0; }
+
+/*# sourceMappingURL=custom.css.map */

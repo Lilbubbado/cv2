@@ -1,0 +1,7 @@
+.config
+.sass-cache
+.prettierignore
+custom.css.map
+node_modules
+.replit
+replit.nix
